@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="logic.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High Low Game</title>
+</head>
+<body>
+
+    <h1>HIGH LOW GAME!</h1>
+    <h3> Can you guess the number? </h3>
+     <ul>
+         <li>Input a number</li>
+         <li>The computer will tell you if its high, or if its low.</li>
+         <li>Try 7 times to get the right answer</li>
+         <li>Have fun!</li>
+     </ul>
+     <h2> TRIES REMAINING: <span id="counter">7</span></h2>
+     <input type="number" placeholder="Input a number between 1 and 100!" id="userNum"><button onclick="highOrLow(document.getElementById('userNum'))">Click to check!</button>
+    
+</body>
+</html>
